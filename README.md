@@ -2,6 +2,8 @@
 
 This Solution Architecture provides an easy-to-use template to tag your content with location context, store it, and then retrieve it based on end-user searches. This solution is comprised of two applications, a Node.js API server that handles content ingestion and search, and a UI frontend to upload and visually display content that has been indexed.
 
+![Content Tagging](assets/content-tagging.gif)
+
 <!-- TOC -->
 
 - [Content Tagging](#content-tagging)
