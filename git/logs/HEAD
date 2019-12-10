@@ -1,0 +1,142 @@
+0000000000000000000000000000000000000000 8da7efd0e038eea344b4ad3934e37ad29430c739 Alex Yule <adyule@gmail.com> 1568851340 -0700	commit (initial): initial commit
+8da7efd0e038eea344b4ad3934e37ad29430c739 33a05762f4f4310de9185641181d19065028fae0 Alex Yule <adyule@gmail.com> 1568852875 -0700	commit: refactor
+33a05762f4f4310de9185641181d19065028fae0 5c8fda75e2fe42ae079d96e09c03ffd5c82c5ef3 Alex Yule <adyule@gmail.com> 1568852893 -0700	commit: refactor
+5c8fda75e2fe42ae079d96e09c03ffd5c82c5ef3 50af062879bfb5f3a357ff1419bf8e03734c8455 Alex Yule <adyule@gmail.com> 1568935131 -0700	commit: v0 working
+50af062879bfb5f3a357ff1419bf8e03734c8455 77ccf79d4db09a10303065b2ab766bf4d88ed9a2 Alex Yule <adyule@gmail.com> 1568936222 -0700	commit: inserting working
+77ccf79d4db09a10303065b2ab766bf4d88ed9a2 7b92939bd970b288c83e819b0b56821ae0d1b6b4 Alex Yule <adyule@gmail.com> 1568936235 -0700	commit: elastic
+7b92939bd970b288c83e819b0b56821ae0d1b6b4 784db11137469a1591e36b3c7d60a0cd4bf537de Alex Yule <adyule@gmail.com> 1568937177 -0700	commit: revert to query string
+784db11137469a1591e36b3c7d60a0cd4bf537de 7ff7fe9c697a1c5262b336cb9d10399b217e17d1 Alex Yule <adyule@gmail.com> 1569004579 -0700	pull: Fast-forward
+7ff7fe9c697a1c5262b336cb9d10399b217e17d1 2fb6f1990be801eacef8716d7f86abf9ba57e035 Alex Yule <adyule@gmail.com> 1569011251 -0700	commit: cors and nice api response
+2fb6f1990be801eacef8716d7f86abf9ba57e035 2fb6f1990be801eacef8716d7f86abf9ba57e035 Alex Yule <adyule@gmail.com> 1569011265 -0700	checkout: moving from master to ui
+2fb6f1990be801eacef8716d7f86abf9ba57e035 a33d19f6bfbfa66dd127ed8197295293fa6e4794 Alex Yule <adyule@gmail.com> 1569012107 -0700	commit: ui
+a33d19f6bfbfa66dd127ed8197295293fa6e4794 1edb4e542b2359cc9ccc7b527d920b34a7f2db4e Alex Yule <adyule@gmail.com> 1569012117 -0700	commit: ui
+1edb4e542b2359cc9ccc7b527d920b34a7f2db4e 2fb6f1990be801eacef8716d7f86abf9ba57e035 Alex Yule <adyule@gmail.com> 1569012135 -0700	checkout: moving from ui to master
+2fb6f1990be801eacef8716d7f86abf9ba57e035 1edb4e542b2359cc9ccc7b527d920b34a7f2db4e Alex Yule <adyule@gmail.com> 1569012137 -0700	merge ui: Fast-forward
+1edb4e542b2359cc9ccc7b527d920b34a7f2db4e 68f8cd3ed98bd81870b593ea7967dc94d82cbe1c Alex Yule <adyule@gmail.com> 1569012331 -0700	commit (merge): merge images
+68f8cd3ed98bd81870b593ea7967dc94d82cbe1c 293b5d719210c5b012753497245a6a2ecf797950 Alex Yule <adyule@gmail.com> 1569012504 -0700	merge origin/image-exif-data: Merge made by the 'recursive' strategy.
+293b5d719210c5b012753497245a6a2ecf797950 1fe7ef5c9ed02eb4879e7c22d1e1075292339a77 Alex Yule <adyule@gmail.com> 1569012619 -0700	commit: IT WORKS iamges loaded
+1fe7ef5c9ed02eb4879e7c22d1e1075292339a77 8f14abfa3de5d0eb392781cbfd11330c58efee89 Alex Yule <adyule@gmail.com> 1569012953 -0700	commit: add images and image title to card as hover
+8f14abfa3de5d0eb392781cbfd11330c58efee89 67449af59f6fe24a37c292ffad20802b8edb4520 Alex Yule <adyule@gmail.com> 1569013081 -0700	commit: readme
+67449af59f6fe24a37c292ffad20802b8edb4520 6effcdcc204a784d0016b49f7efb9532a3d25a4a Alex Yule <adyule@gmail.com> 1569013531 -0700	commit: remove map ui, add data and readme
+6effcdcc204a784d0016b49f7efb9532a3d25a4a fa54cccc8b17da0241191017280c4feae653faf3 Alex Yule <adyule@gmail.com> 1569257843 -0700	commit: added dotenv, readme update and more error handling for elastic insert
+fa54cccc8b17da0241191017280c4feae653faf3 31eca01be76175aaa190c374e8872c8019ade8f9 Alex Yule <adyule@gmail.com> 1569258746 -0700	commit: dotenv
+31eca01be76175aaa190c374e8872c8019ade8f9 faaea256c78ecf998cef12c926e5677d53f4a264 Alex Yule <adyule@gmail.com> 1569260484 -0700	commit: working with remote cluster and api key
+faaea256c78ecf998cef12c926e5677d53f4a264 39e07e8a60967e94db2ec4db458f2fdab6a39ff7 Alex Yule <adyule@gmail.com> 1569262448 -0700	commit: readme and faq snapshot (see paper for latest
+39e07e8a60967e94db2ec4db458f2fdab6a39ff7 287f25a79ebc172b9b3ecfe40cc11d8554e2dd2c Alex Yule <adyule@gmail.com> 1569262555 -0700	commit: arch in readme
+287f25a79ebc172b9b3ecfe40cc11d8554e2dd2c 20371e06f9da2bd190a14899728eb48eb90e391c Alex Yule <adyule@gmail.com> 1569262672 -0700	commit: remove server from sample.env
+20371e06f9da2bd190a14899728eb48eb90e391c f0cb4c8718b709c4fa50354f51df4cbf56881fc9 Alex Yule <adyule@gmail.com> 1569269570 -0700	commit: add metadata to search view
+f0cb4c8718b709c4fa50354f51df4cbf56881fc9 16026f7eb367ea83ca67b55eb44867eb91ebe6f7 Alex Yule <adyule@gmail.com> 1569269987 -0700	commit: spacing and elastic index check removal
+16026f7eb367ea83ca67b55eb44867eb91ebe6f7 16026f7eb367ea83ca67b55eb44867eb91ebe6f7 Alex Yule <adyule@gmail.com> 1569273941 -0700	checkout: moving from master to elevation
+16026f7eb367ea83ca67b55eb44867eb91ebe6f7 8ffb177ee82f0b214ae2619332e8b1e3714b360e Alex Yule <adyule@gmail.com> 1569273948 -0700	commit: elevation not working
+8ffb177ee82f0b214ae2619332e8b1e3714b360e 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1569273953 -0700	commit: elevation not working
+042075c16df7621f4c6e77747aab41d70c7d2486 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1569274190 -0700	reset: moving to HEAD
+042075c16df7621f4c6e77747aab41d70c7d2486 16026f7eb367ea83ca67b55eb44867eb91ebe6f7 Alex Yule <adyule@gmail.com> 1569274191 -0700	checkout: moving from elevation to master
+16026f7eb367ea83ca67b55eb44867eb91ebe6f7 f59a735cef0644ed96456f4b4af517fda131935b Alex Yule <adyule@gmail.com> 1569274199 -0700	commit: doc link
+f59a735cef0644ed96456f4b4af517fda131935b f59a735cef0644ed96456f4b4af517fda131935b Alex Yule <adyule@gmail.com> 1569276024 -0700	checkout: moving from master to upload
+f59a735cef0644ed96456f4b4af517fda131935b f59a735cef0644ed96456f4b4af517fda131935b Alex Yule <adyule@gmail.com> 1569611185 -0700	reset: moving to HEAD
+f59a735cef0644ed96456f4b4af517fda131935b 6f9936b8cfa9c214432fa023c69a65293d7faa1e Alex Yule <adyule@gmail.com> 1569611223 -0700	commit: uploader
+6f9936b8cfa9c214432fa023c69a65293d7faa1e f59a735cef0644ed96456f4b4af517fda131935b Alex Yule <adyule@gmail.com> 1569611227 -0700	checkout: moving from upload to master
+f59a735cef0644ed96456f4b4af517fda131935b 6f9936b8cfa9c214432fa023c69a65293d7faa1e Alex Yule <adyule@gmail.com> 1569613001 -0700	checkout: moving from master to upload
+6f9936b8cfa9c214432fa023c69a65293d7faa1e 6f9936b8cfa9c214432fa023c69a65293d7faa1e Alex Yule <adyule@gmail.com> 1571335959 -0700	reset: moving to HEAD
+6f9936b8cfa9c214432fa023c69a65293d7faa1e f59a735cef0644ed96456f4b4af517fda131935b Alex Yule <adyule@gmail.com> 1571335962 -0700	checkout: moving from upload to master
+f59a735cef0644ed96456f4b4af517fda131935b c24fc42c1fa2f42c371014c2d653d28ff2229106 Alex Yule <adyule@gmail.com> 1571335966 -0700	pull: Fast-forward
+c24fc42c1fa2f42c371014c2d653d28ff2229106 6f9936b8cfa9c214432fa023c69a65293d7faa1e Alex Yule <adyule@gmail.com> 1571335969 -0700	checkout: moving from master to upload
+6f9936b8cfa9c214432fa023c69a65293d7faa1e b329a3a00d3cf3461b2d4b59504758f762ba9250 Alex Yule <adyule@gmail.com> 1571336009 -0700	commit: uploader
+b329a3a00d3cf3461b2d4b59504758f762ba9250 8a671fcd59e4e2356a3879621ef01b7ec564214c Alex Yule <adyule@gmail.com> 1571336014 -0700	merge master: Merge made by the 'recursive' strategy.
+8a671fcd59e4e2356a3879621ef01b7ec564214c 8a671fcd59e4e2356a3879621ef01b7ec564214c Alex Yule <adyule@gmail.com> 1571787230 -0700	reset: moving to HEAD
+8a671fcd59e4e2356a3879621ef01b7ec564214c c24fc42c1fa2f42c371014c2d653d28ff2229106 Alex Yule <adyule@gmail.com> 1571787234 -0700	checkout: moving from upload to master
+c24fc42c1fa2f42c371014c2d653d28ff2229106 c24fc42c1fa2f42c371014c2d653d28ff2229106 Alex Yule <adyule@gmail.com> 1571787254 -0700	reset: moving to HEAD
+c24fc42c1fa2f42c371014c2d653d28ff2229106 62a7d5060c887c62ae21a449c186a28b30d01bd8 Alex Yule <adyule@gmail.com> 1571787284 -0700	commit: startup scripts
+62a7d5060c887c62ae21a449c186a28b30d01bd8 62a7d5060c887c62ae21a449c186a28b30d01bd8 Alex Yule <adyule@gmail.com> 1571787288 -0700	reset: moving to HEAD
+62a7d5060c887c62ae21a449c186a28b30d01bd8 8a671fcd59e4e2356a3879621ef01b7ec564214c Alex Yule <adyule@gmail.com> 1571787516 -0700	checkout: moving from master to upload
+8a671fcd59e4e2356a3879621ef01b7ec564214c eee8a81bdca698cf6819f5eb9fd2934657c4f194 Alex Yule <adyule@gmail.com> 1571787688 -0700	commit: uploads
+eee8a81bdca698cf6819f5eb9fd2934657c4f194 fbe851f68afdd1120ff3d7abf1d76a0dd1d8cfc2 Alex Yule <adyule@gmail.com> 1571787691 -0700	merge master: Merge made by the 'recursive' strategy.
+fbe851f68afdd1120ff3d7abf1d76a0dd1d8cfc2 02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 Alex Yule <adyule@gmail.com> 1571787849 -0700	commit: in progress
+02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 Alex Yule <adyule@gmail.com> 1572285555 -0700	reset: moving to HEAD
+02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 62a7d5060c887c62ae21a449c186a28b30d01bd8 Alex Yule <adyule@gmail.com> 1572285557 -0700	checkout: moving from upload to master
+62a7d5060c887c62ae21a449c186a28b30d01bd8 02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 Alex Yule <adyule@gmail.com> 1572285567 -0700	checkout: moving from master to upload
+02d6e1ade37b9bd583e81abcdd5fbbbe136aa774 f7840fcbc00e2d5a3b05eb60595d13d27cb6aee6 Alex Yule <adyule@gmail.com> 1572475588 -0700	commit: built with multer not working
+f7840fcbc00e2d5a3b05eb60595d13d27cb6aee6 f8c464142e609f9d99724d408fec8242bc3e2a8f Alex Yule <adyule@gmail.com> 1572477528 -0700	commit: uploads working, next is exif and index
+f8c464142e609f9d99724d408fec8242bc3e2a8f f8c464142e609f9d99724d408fec8242bc3e2a8f Alex Yule <adyule@gmail.com> 1572633649 -0700	reset: moving to HEAD
+f8c464142e609f9d99724d408fec8242bc3e2a8f e5e7fe4a7eabf374ae984536ee6dfac80aec863b Alex Yule <adyule@gmail.com> 1572633981 -0700	commit: ignore images in upload folder
+e5e7fe4a7eabf374ae984536ee6dfac80aec863b 740cc26fd89af0356eef5a0e489e949dcf4e511f Alex Yule <adyule@gmail.com> 1572634782 -0700	commit: fixed startup script to store images on server not ui, multiple image uploading working
+740cc26fd89af0356eef5a0e489e949dcf4e511f 406f077accae55cba1e45d90e08f9dbd90897a75 Alex Yule <adyule@gmail.com> 1572647502 -0700	commit: read exif from uploaded files
+406f077accae55cba1e45d90e08f9dbd90897a75 c93c8a0bc838e80491fcc6968cf43addb69dcca0 Alex Yule <adyule@gmail.com> 1572839207 -0800	commit: upload and ingest working so far
+c93c8a0bc838e80491fcc6968cf43addb69dcca0 ac4571c1f72c93603ede974acfb25e00cbace15a Alex Yule <adyule@gmail.com> 1572839948 -0800	commit: readme update
+ac4571c1f72c93603ede974acfb25e00cbace15a 62a7d5060c887c62ae21a449c186a28b30d01bd8 Alex Yule <adyule@gmail.com> 1572839956 -0800	checkout: moving from upload to master
+62a7d5060c887c62ae21a449c186a28b30d01bd8 ac4571c1f72c93603ede974acfb25e00cbace15a Alex Yule <adyule@gmail.com> 1572839982 -0800	merge upload: Fast-forward
+ac4571c1f72c93603ede974acfb25e00cbace15a ac4571c1f72c93603ede974acfb25e00cbace15a Alex Yule <adyule@gmail.com> 1573771202 -0800	reset: moving to HEAD
+ac4571c1f72c93603ede974acfb25e00cbace15a 05829150ffab51ab6b6e491618f438df6841f703 Alex Yule <adyule@gmail.com> 1574104897 -0800	commit: alias root start to ui start
+05829150ffab51ab6b6e491618f438df6841f703 ac05080ff4f6af9cda83eb66c781f831fd3e405f Alex Yule <adyule@gmail.com> 1574109118 -0800	commit: added success message
+ac05080ff4f6af9cda83eb66c781f831fd3e405f 95503ba02b71c01567312e446dfe17411fc37e33 Alex Yule <adyule@gmail.com> 1575421576 -0800	pull: Fast-forward
+95503ba02b71c01567312e446dfe17411fc37e33 874b26ef65cf68e2a8c83d436dc54044004e6286 Alex Yule <adyule@gmail.com> 1575569586 -0800	checkout: moving from master to readme
+874b26ef65cf68e2a8c83d436dc54044004e6286 95503ba02b71c01567312e446dfe17411fc37e33 Alex Yule <adyule@gmail.com> 1575575240 -0800	checkout: moving from readme to master
+95503ba02b71c01567312e446dfe17411fc37e33 f3b5cc74266aca31a8963cac7bd37c6210b016b2 Alex Yule <adyule@gmail.com> 1575678975 -0800	commit: fix css bug
+f3b5cc74266aca31a8963cac7bd37c6210b016b2 c09a105d292457c8b534313fe4789e66dc780d56 Alex Yule <adyule@gmail.com> 1575679035 -0800	commit: LICENSE
+c09a105d292457c8b534313fe4789e66dc780d56 38312e3e4609bef2c80469121a41cdf977334afa Alex Yule <adyule@gmail.com> 1575679275 -0800	commit: styling fix
+38312e3e4609bef2c80469121a41cdf977334afa 6e41d7f9f307202a91363bb64d388d493377c0e6 Alex Yule <adyule@gmail.com> 1575680663 -0800	commit: cleanup
+6e41d7f9f307202a91363bb64d388d493377c0e6 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1575680695 -0800	checkout: moving from master to elevation
+042075c16df7621f4c6e77747aab41d70c7d2486 6e41d7f9f307202a91363bb64d388d493377c0e6 Alex Yule <adyule@gmail.com> 1575680724 -0800	checkout: moving from elevation to master
+6e41d7f9f307202a91363bb64d388d493377c0e6 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1575680752 -0800	checkout: moving from master to elevation
+042075c16df7621f4c6e77747aab41d70c7d2486 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1575680783 -0800	reset: moving to HEAD
+042075c16df7621f4c6e77747aab41d70c7d2486 042075c16df7621f4c6e77747aab41d70c7d2486 Alex Yule <adyule@gmail.com> 1575680812 -0800	reset: moving to HEAD
+042075c16df7621f4c6e77747aab41d70c7d2486 6e41d7f9f307202a91363bb64d388d493377c0e6 Alex Yule <adyule@gmail.com> 1575680882 -0800	checkout: moving from elevation to master
+6e41d7f9f307202a91363bb64d388d493377c0e6 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575682433 -0800	commit: cleanup
+d9864612684118af26479fcc4404f74ef6ef4b23 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575686851 -0800	reset: moving to HEAD
+d9864612684118af26479fcc4404f74ef6ef4b23 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575686857 -0800	checkout: moving from master to instruments
+d9864612684118af26479fcc4404f74ef6ef4b23 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575686874 -0800	commit: add test query and plugin name param
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575697647 -0800	checkout: moving from instruments to elevation
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575697665 -0800	checkout: moving from elevation to master
+d9864612684118af26479fcc4404f74ef6ef4b23 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575697672 -0800	checkout: moving from master to elevation
+d9864612684118af26479fcc4404f74ef6ef4b23 cda4bb35cce5f0111d6e175f57042b0e9d902e19 Alex Yule <adyule@gmail.com> 1575699519 -0800	commit: elevation tagging
+cda4bb35cce5f0111d6e175f57042b0e9d902e19 517be05f4ab002baaf97e7ece41f19c290a4dca5 Alex Yule <adyule@gmail.com> 1575699535 -0800	commit: elevation tagging
+517be05f4ab002baaf97e7ece41f19c290a4dca5 517be05f4ab002baaf97e7ece41f19c290a4dca5 Alex Yule <adyule@gmail.com> 1575699753 -0800	reset: moving to HEAD
+517be05f4ab002baaf97e7ece41f19c290a4dca5 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575699755 -0800	checkout: moving from elevation to master
+d9864612684118af26479fcc4404f74ef6ef4b23 65ff5f62449919ad22f84f8db12d54b4d825aa45 Alex Yule <adyule@gmail.com> 1575699767 -0800	commit: show filename instead of message
+65ff5f62449919ad22f84f8db12d54b4d825aa45 517be05f4ab002baaf97e7ece41f19c290a4dca5 Alex Yule <adyule@gmail.com> 1575699896 -0800	checkout: moving from master to elevation
+517be05f4ab002baaf97e7ece41f19c290a4dca5 ec220d3de8bb05d33647c84026c1d91a913e4f76 Alex Yule <adyule@gmail.com> 1575699927 -0800	commit: logging
+ec220d3de8bb05d33647c84026c1d91a913e4f76 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575864035 -0800	checkout: moving from elevation to instruments
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575869069 -0800	checkout: moving from instruments to instrument-react-test
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575869441 -0800	checkout: moving from instrument-react-test to instruments
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef 7a1efeed9370465e4b0c5e526aa45b349ef1a0ef Alex Yule <adyule@gmail.com> 1575869504 -0800	checkout: moving from instruments to instrument-react-test
+7a1efeed9370465e4b0c5e526aa45b349ef1a0ef 1bd7f34a75f721cbf16f7df3f5647e35e64c6ee0 Alex Yule <adyule@gmail.com> 1575869827 -0800	commit: stub for checking instruments in browser
+1bd7f34a75f721cbf16f7df3f5647e35e64c6ee0 65ff5f62449919ad22f84f8db12d54b4d825aa45 Alex Yule <adyule@gmail.com> 1575869835 -0800	checkout: moving from instrument-react-test to master
+65ff5f62449919ad22f84f8db12d54b4d825aa45 9b6766d1e336450ccd991f9604efa464d151489b Alex Yule <adyule@gmail.com> 1575869846 -0800	checkout: moving from master to installation-tweaks
+9b6766d1e336450ccd991f9604efa464d151489b 65ff5f62449919ad22f84f8db12d54b4d825aa45 Alex Yule <adyule@gmail.com> 1575917430 -0800	checkout: moving from installation-tweaks to master
+65ff5f62449919ad22f84f8db12d54b4d825aa45 2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 Alex Yule <adyule@gmail.com> 1575917432 -0800	pull: Fast-forward
+2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 ec220d3de8bb05d33647c84026c1d91a913e4f76 Alex Yule <adyule@gmail.com> 1575917437 -0800	checkout: moving from master to elevation
+ec220d3de8bb05d33647c84026c1d91a913e4f76 ec220d3de8bb05d33647c84026c1d91a913e4f76 Alex Yule <adyule@gmail.com> 1575917792 -0800	reset: moving to HEAD
+ec220d3de8bb05d33647c84026c1d91a913e4f76 ee0fd9f0be75e797efbf186fb43f5bd318fd32dd Alex Yule <adyule@gmail.com> 1575917809 -0800	commit: add elevation to ui
+ee0fd9f0be75e797efbf186fb43f5bd318fd32dd ee0fd9f0be75e797efbf186fb43f5bd318fd32dd Alex Yule <adyule@gmail.com> 1575917814 -0800	reset: moving to HEAD
+ee0fd9f0be75e797efbf186fb43f5bd318fd32dd 245d012e0f14214259f83e36ec7c10cc3b876c29 Alex Yule <adyule@gmail.com> 1575917992 -0800	commit (merge): install tweaks merge
+245d012e0f14214259f83e36ec7c10cc3b876c29 91c0d03f7c45d85d40843b7d124be68f8aa639c0 Alex Yule <adyule@gmail.com> 1575918129 -0800	commit: conflict resolved
+91c0d03f7c45d85d40843b7d124be68f8aa639c0 2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 Alex Yule <adyule@gmail.com> 1575918988 -0800	checkout: moving from elevation to master
+2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 91c0d03f7c45d85d40843b7d124be68f8aa639c0 Alex Yule <adyule@gmail.com> 1575919004 -0800	merge elevation: Fast-forward
+91c0d03f7c45d85d40843b7d124be68f8aa639c0 6d83093138ceab85f99fe4047789aa2c4f2bde86 Alex Yule <adyule@gmail.com> 1575919109 -0800	revert: Revert "conflict resolved"
+6d83093138ceab85f99fe4047789aa2c4f2bde86 91c0d03f7c45d85d40843b7d124be68f8aa639c0 Alex Yule <adyule@gmail.com> 1575919827 -0800	checkout: moving from master to elevation
+91c0d03f7c45d85d40843b7d124be68f8aa639c0 7ba61c653021295791faac73a11a6901a5ec474b Alex Yule <adyule@gmail.com> 1575919843 -0800	commit: remove conditional rendering to show 0m
+7ba61c653021295791faac73a11a6901a5ec474b 2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 Alex Yule <adyule@gmail.com> 1575919881 -0800	checkout: moving from elevation to origin/master
+2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 6d83093138ceab85f99fe4047789aa2c4f2bde86 Alex Yule <adyule@gmail.com> 1575919887 -0800	checkout: moving from 2d6df3e345c51ec4b0aeb77afbcdd457c92de1d7 to master
+6d83093138ceab85f99fe4047789aa2c4f2bde86 c4e33c83cc49c2c3d39c4555057ff0cddc2af4b5 Alex Yule <adyule@gmail.com> 1575919890 -0800	pull: Merge made by the 'recursive' strategy.
+c4e33c83cc49c2c3d39c4555057ff0cddc2af4b5 353a40db35f560d3fb928875c633dd2b3a851a94 Alex Yule <adyule@gmail.com> 1575919937 -0800	rebase -i (start): checkout refs/remotes/origin/master
+353a40db35f560d3fb928875c633dd2b3a851a94 353a40db35f560d3fb928875c633dd2b3a851a94 Alex Yule <adyule@gmail.com> 1575919937 -0800	rebase -i (finish): returning to refs/heads/master
+353a40db35f560d3fb928875c633dd2b3a851a94 46e24e129c46f43924563cdcbdba1a7bc4e1041f Alex Yule <adyule@gmail.com> 1575919986 -0800	pull: Fast-forward
+46e24e129c46f43924563cdcbdba1a7bc4e1041f 0f59f63a4afeb86ff808c1b69406ca6929ef87ee Alex Yule <adyule@gmail.com> 1575921885 -0800	commit: comments and cleanup
+0f59f63a4afeb86ff808c1b69406ca6929ef87ee 9c87b4ace328092dac4037101226486e9edb1e71 Alex Yule <adyule@gmail.com> 1575922686 -0800	commit: allow the console
+9c87b4ace328092dac4037101226486e9edb1e71 e17f308a81295bb8a89a2bc86c6a203eccd35e9e Alex Yule <adyule@gmail.com> 1575923027 -0800	commit: comments
+e17f308a81295bb8a89a2bc86c6a203eccd35e9e 9b75c158756c325ce31a2ae0885a42fc973091f6 Alex Yule <adyule@gmail.com> 1575940533 -0800	commit: cleanup
+9b75c158756c325ce31a2ae0885a42fc973091f6 70ce65d25d8d6e6b5acb87f5be9df7f51cd95ba7 Alex Yule <adyule@gmail.com> 1575940552 -0800	pull: Merge made by the 'recursive' strategy.
+70ce65d25d8d6e6b5acb87f5be9df7f51cd95ba7 f217eb78ed73e11ce9cee863523cc2d373715326 Alex Yule <adyule@gmail.com> 1575944431 -0800	commit: rename images and fix elevation casting bug
+f217eb78ed73e11ce9cee863523cc2d373715326 ce7cf39d56e2dd1e97dcf31942c017e4fca5b757 Alex Yule <adyule@gmail.com> 1575944445 -0800	commit: elevation casting bug fix
+ce7cf39d56e2dd1e97dcf31942c017e4fca5b757 8bb4e18b8ec4fcda36707ffdcdeba575a25fce4e Alex Yule <adyule@gmail.com> 1575944808 -0800	commit: clear success message after selecting new file
+8bb4e18b8ec4fcda36707ffdcdeba575a25fce4e 8ffb8cae80722d0c6ae20ae591607115913b2bdc Alex Yule <adyule@gmail.com> 1575945275 -0800	commit: CSS
+8ffb8cae80722d0c6ae20ae591607115913b2bdc 318a2545d2ae8d996f3b1ae869cc612e0aab7644 Alex Yule <adyule@gmail.com> 1575946585 -0800	commit: key fix
+318a2545d2ae8d996f3b1ae869cc612e0aab7644 c67875dee0d6afdf334064629a65a478985d11ed Alex Yule <adyule@gmail.com> 1575950011 -0800	commit: readme updates
+c67875dee0d6afdf334064629a65a478985d11ed b799040a0f8a8ab2c52afb4eea58dfd38345ce37 Alex Yule <adyule@gmail.com> 1575955103 -0800	commit: syncing changes
+b799040a0f8a8ab2c52afb4eea58dfd38345ce37 b799040a0f8a8ab2c52afb4eea58dfd38345ce37 Alex Yule <adyule@gmail.com> 1575956919 -0800	reset: moving to HEAD
+b799040a0f8a8ab2c52afb4eea58dfd38345ce37 b799040a0f8a8ab2c52afb4eea58dfd38345ce37 Alex Yule <adyule@gmail.com> 1575956925 -0800	checkout: moving from master to onecommand
+b799040a0f8a8ab2c52afb4eea58dfd38345ce37 b799040a0f8a8ab2c52afb4eea58dfd38345ce37 Alex Yule <adyule@gmail.com> 1575957109 -0800	checkout: moving from onecommand to master
+b799040a0f8a8ab2c52afb4eea58dfd38345ce37 8183bd678ace1c02d157953f08c1a46f3ed46739 Alex Yule <adyule@gmail.com> 1575961508 -0800	commit: add elastic to license
+8183bd678ace1c02d157953f08c1a46f3ed46739 0ad981b7e2549d735d76ab56c3136b896a3d4ebf Alex Yule <adyule@gmail.com> 1575969784 -0800	commit: readme updates
+0ad981b7e2549d735d76ab56c3136b896a3d4ebf f530313a7e0224f5ab75f989030c1b8fa6f93ce5 Alex Yule <adyule@gmail.com> 1575970987 -0800	commit: a few more modifications
+f530313a7e0224f5ab75f989030c1b8fa6f93ce5 e0f51b33b02da1b12c41a1122f2853956d6bfc32 Alex Yule <adyule@gmail.com> 1575971161 -0800	commit: elastic in the cloud

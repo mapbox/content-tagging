@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:mapbox/content-tagging.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "readme"]
+	remote = origin
+	merge = refs/heads/readme
+[branch "instruments"]
+	remote = origin
+	merge = refs/heads/instruments
+[branch "elevation"]
+	remote = origin
+	merge = refs/heads/elevation
+[branch "installation-tweaks"]
+	remote = origin
+	merge = refs/heads/installation-tweaks

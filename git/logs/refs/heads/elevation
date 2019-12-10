@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 d9864612684118af26479fcc4404f74ef6ef4b23 Alex Yule <adyule@gmail.com> 1575697672 -0800	branch: Created from HEAD
+d9864612684118af26479fcc4404f74ef6ef4b23 cda4bb35cce5f0111d6e175f57042b0e9d902e19 Alex Yule <adyule@gmail.com> 1575699519 -0800	commit: elevation tagging
+cda4bb35cce5f0111d6e175f57042b0e9d902e19 517be05f4ab002baaf97e7ece41f19c290a4dca5 Alex Yule <adyule@gmail.com> 1575699535 -0800	commit: elevation tagging
+517be05f4ab002baaf97e7ece41f19c290a4dca5 ec220d3de8bb05d33647c84026c1d91a913e4f76 Alex Yule <adyule@gmail.com> 1575699927 -0800	commit: logging
+ec220d3de8bb05d33647c84026c1d91a913e4f76 ee0fd9f0be75e797efbf186fb43f5bd318fd32dd Alex Yule <adyule@gmail.com> 1575917809 -0800	commit: add elevation to ui
+ee0fd9f0be75e797efbf186fb43f5bd318fd32dd 245d012e0f14214259f83e36ec7c10cc3b876c29 Alex Yule <adyule@gmail.com> 1575917992 -0800	commit (merge): install tweaks merge
+245d012e0f14214259f83e36ec7c10cc3b876c29 91c0d03f7c45d85d40843b7d124be68f8aa639c0 Alex Yule <adyule@gmail.com> 1575918129 -0800	commit: conflict resolved
+91c0d03f7c45d85d40843b7d124be68f8aa639c0 7ba61c653021295791faac73a11a6901a5ec474b Alex Yule <adyule@gmail.com> 1575919843 -0800	commit: remove conditional rendering to show 0m
