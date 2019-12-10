@@ -15,6 +15,7 @@ app.use(express.json());
 app.get('/', (req, res) => res.send('hey world'));
 
 app.post('/ingest', ingest);
+// This ingest function can be used for debugging by loading the `/ingest` page to ingest dummy content pointing to a remote image
 app.get('/ingest', ingestGet);
 app.get('/search', search);
 app.post('/upload', upload);

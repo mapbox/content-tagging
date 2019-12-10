@@ -18,6 +18,7 @@ This Solution Architecture provides an easy-to-use template to tag your content 
     - [Uploading Images](#uploading-images)
     - [Searching](#searching)
   - [Deployment & Customization](#deployment--customization)
+    - [Ingesting Other Types of Content](#ingesting-other-types-of-content)
     - [Enhanced Tagging](#enhanced-tagging)
     - [Tuning Elasticsearch](#tuning-elasticsearch)
   - [Authors](#authors)
@@ -134,6 +135,19 @@ Press return and the image you uploaded appears.
 ![](assets/readme-007.png)
 
 ## Deployment & Customization
+
+### Ingesting Other Types of Content
+
+The `/upload` api uploads and ingests images by extracting EXIF information and passig it to the `ingest` functions. However the application can also be used to tag and index other types of content by using the `/ingest` api directly.
+
+Any piece of content with a latitude and longitude can be tagged and indexed in this way provided it has latitude, longitude, and a url (referenced here as `imgUrl`). For example, to ingest an image stored elsewhere:
+
+```
+curl --request POST \
+  --url http://localhost:3001/ingest \
+  --header 'content-type: application/json' \
+  --data '[{"imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Beijing_montage_2019.png/1024px-Beijing_montage_2019.png","coordinates": ["116.27963213522958", "39.857073723727865"],"createdAt": "tuesday","message": "this is taken outside the forbidden palace"}]'
+```
 
 ### Enhanced Tagging
 

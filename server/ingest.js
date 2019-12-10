@@ -9,7 +9,7 @@ const INDEX_NAME = process.env.INDEX_NAME || 'content';
 const ingestGet = async (req, res) => {
   const data = {
     imgUrl:
-      '"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Beijing_montage_2019.png/1024px-Beijing_montage_2019.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Beijing_montage_2019.png/1024px-Beijing_montage_2019.png',
     coordinates: ['116.27963213522958', '39.857073723727865'],
     createdAt: 'tuesday',
     message: 'this is taken outside the forbidden palace'
@@ -30,7 +30,7 @@ const ingestGet = async (req, res) => {
 const ingest = async (req, res) => {
   console.log(req.body);
   const body = req.body;
-  // elastic.indices.refresh() // if your index refresh time is high, or you want immediate searchability, refresh the index after an insert
+  // elastic.indices.refresh() if your index refresh time is high, or you want immediate searchability, refresh the index after an insert
   const results = await ingestItems(body);
 
   res.json({
