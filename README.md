@@ -173,4 +173,4 @@ Mapbox Solutions Architecture
 
 ## License
 
-This project is licensed under the BSD-3-Clause License - see the \[LICENSE.md\](LICENSE) file for details
+This project is licensed under the BSD-3-Clause License - see the [LICENSE.md](LICENSE) file for details
