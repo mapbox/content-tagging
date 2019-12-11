@@ -48,7 +48,7 @@ For development, this dashboard will run a Dockerized version of Elasticsearch B
 
 ### Mapbox
 
-You will need a Mapbox public token with access to the Mapbox Permanent Geocoding API. If you do not have a Mapbox account sign up [here](https://mapbox.com/signup). If you don’t have access to the `mapbox.places-permanent` endpoint for permanent geocoding, [contact Mapbox sales](http://mapbox.com/solutions/content-tagging) to request access.
+You will need a Mapbox public token with access to the Mapbox Permanent Geocoding API. If you do not have a Mapbox account sign up [here](https://mapbox.com/signup). If you don’t have access to the `mapbox.places-permanent` endpoint for permanent geocoding, [contact Mapbox sales](mailto:sales@mapbox.com?cc=solutions@mapbox.com&subject=Content%20Tagging%3A%20Perm%20Geocoding%20Activation&body=Name%3A%20%0ACompany%20I%20work%20for%3A%20%0AMapbox%20Account%20name%20%28if%20I%20have%20one%29%3A%20%0AUse%20case%20for%20content%20tagging%3A%20) to request access.
 
 ### Configuration
 
