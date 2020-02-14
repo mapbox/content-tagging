@@ -15,11 +15,11 @@ This Solution Architecture provides an easy-to-use template to tag your content 
     - [Configuration](#configuration)
   - [Development](#development)
     - [Installation](#installation)
-    - [Starting Elasticsearch with Docker](#starting-elasticsearch-with-docker)
     - [Starting the Application](#starting-the-application)
     - [Uploading Images](#uploading-images)
     - [Searching](#searching)
   - [Deployment & Customization](#deployment--customization)
+    - [Elasticsearch and Docker](#elasticsearch-and-docker)
     - [Ingesting Other Types of Content](#ingesting-other-types-of-content)
     - [Enhanced Tagging](#enhanced-tagging)
     - [Tuning Elasticsearch](#tuning-elasticsearch)
@@ -50,7 +50,7 @@ For development, this dashboard will run a Dockerized version of Elasticsearch B
 
 ### Mapbox
 
-You will need a Mapbox public token with access to the Mapbox Permanent Geocoding API. If you do not have a Mapbox account sign up [here](https://mapbox.com/signup). If you don’t have access to the `mapbox.places-permanent` endpoint for permanent geocoding, [contact Mapbox sales](mailto:sales@mapbox.com?cc=solutions@mapbox.com&subject=Content%20Tagging%3A%20Perm%20Geocoding%20Activation&body=Name%3A%20%0ACompany%20I%20work%20for%3A%20%0AMapbox%20Account%20name%20%28if%20I%20have%20one%29%3A%20%0AUse%20case%20for%20content%20tagging%3A%20) to request access.
+You will need a **Mapbox public token with access to the Mapbox Permanent Geocoding API**. If you do not have a Mapbox account sign up [here](https://mapbox.com/signup). If you don’t have access to the `mapbox.places-permanent` endpoint for permanent geocoding, [contact Mapbox sales](mailto:sales@mapbox.com?cc=solutions@mapbox.com&subject=Content%20Tagging%3A%20Perm%20Geocoding%20Activation&body=Name%3A%20%0ACompany%20I%20work%20for%3A%20%0AMapbox%20Account%20name%20%28if%20I%20have%20one%29%3A%20%0AUse%20case%20for%20content%20tagging%3A%20) to request access.
 
 ### Configuration
 
@@ -67,38 +67,49 @@ The configuration variables available:
 
 Clone the repository and install dependencies for the server and UI starting in the repository root:
 
-    % npm ci
-    % cd ui && npm ci
-
-### Starting Elasticsearch with Docker
-
-Before starting up the server you’ll need to start a docker container with Elasticsearch. You can do this with a default Elasticsearch configuration in a fresh container with this command, run from the project root:
-
-    % npm run-script docker
-
-To start start from a fresh index, restart the docker container and all data will be cleared (uploaded images will remain in `/public`). In a production environment, [use snapshots to prevent data loss](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html) in the event of a stopped Elasticsearch process.
+    % npm run install-all
 
 ### Starting the Application
 
-In a new terminal window, start both the user interface and server from the project root by running:
+In a new terminal window, start both the docker container, user interface, and server from the project root by running:
 
     % npm start
 
-You will see the react application and development server start with live-reload enabled
+You will see the react application and development server start with live-reload enabled. 
 
-    > @ start /content-tagging
-    > cd ui && npm start
-    > pics@0.1.0 start /content-tagging/ui
-    > SKIP_PREFLIGHT_CHECK=true concurrently "react-scripts start" "cd .. && nodemon server/app.js "
-    \[1\] [nodemon] 1.19.4
-    \[1\] [nodemon] to restart at any time, enter rs
-    \[1\] [nodemon] watching dir(s): .
-    \[1\] [nodemon] watching extensions: js,mjs,json
-    \[1\] [nodemon] starting node server/app.js
-    [1] This is Listening on 3001
-    [0] Starting the development server...
+Be sure to wait for the Docker container to install and load before uploading your images: `"Active license is now [BASIC]; Security is disabled"`
+
+    code/content-tagging(master) ☸ npm start
+
+    > @ start /Users/alexyule/code/content-tagging
+    > npm run copy-env && npm run start-samples
+
+
+    > @ copy-env /Users/alexyule/code/content-tagging
+    > if test -f '.env'; then (cp .env ui/); else echo 'no .env file found; assuming you have set REACT_APP_MAPBOX_TOKEN'; fi
+
+
+    > @ start-samples /Users/alexyule/code/content-tagging
+    > concurrently "npm run docker" "nodemon server/app.js " "cd ui && npm start"
+
+    [0]
+    [0] > @ docker /Users/alexyule/code/content-tagging
+    [0] > docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.3.2
+    [0]
+    [2]
+    [2] > pics@0.1.0 start /Users/alexyule/code/content-tagging/ui
+    [2] > SKIP_PREFLIGHT_CHECK=true PORT=3000 react-scripts start
+    [2]
+    [1] [nodemon] 1.19.2
+    [1] [nodemon] to restart at any time, enter `rs`
+    [1] [nodemon] watching dir(s): *.*
+    [1] [nodemon] starting `node server/app.js`
+    ...
+    [0] {"type": "server", "timestamp": "2020-02-14T01:14:51,256+0000", "level": "INFO", "component": "o.e.l.LicenseService", "cluster.name": "docker-cluster", "node.name": "5b48d54df00f", "cluster.uuid": "HZI_aHIAQhOqZNZiJOOgfQ", "node.id": "_2GEODhzSHaGaGFN8DiVZw",  "message": "license [eb8db313-f4b9-45b9-b5ed-3b2af0a5b8b5] mode [basic] - valid"  }
+    [0] {"type": "server", "timestamp": "2020-02-14T01:14:51,258+0000", "level": "INFO", "component": "o.e.x.s.s.SecurityStatusChangeListener", "cluster.name": "docker-cluster", "node.name": "5b48d54df00f", "cluster.uuid": "HZI_aHIAQhOqZNZiJOOgfQ", "node.id": "_2GEODhzSHaGaGFN8DiVZw",  "message": "Active license is now [BASIC]; Security is disabled"  }
 
 This will also a browser window with the UI loaded at `http://localhost:3000` . You should see an `Image Search` form, and a `File Upload` control as seen below.
+c
 
 ![](assets/readme-001.png)
 
@@ -137,6 +148,15 @@ Press return and the image you uploaded appears.
 ![](assets/readme-007.png)
 
 ## Deployment & Customization
+
+
+### Elasticsearch and Docker
+For more control over your data, run the ElasticSearch container in its own terminal window. This will allow your indexed data to persist between launches (uploaded images will still remain in `/public`).
+
+    % npm run-script docker -->
+
+In a production environment, [use snapshots to prevent data loss](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html) in the event of a stopped Elasticsearch process.
+
 
 ### Ingesting Other Types of Content
 
