@@ -3,7 +3,7 @@ const MapboxClient = require('@mapbox/mapbox-sdk');
 const mbxGeocoder = require('@mapbox/mapbox-sdk/services/geocoding');
 const mbxTokens = require('@mapbox/mapbox-sdk/services/tokens');
 
-const token = process.env.MAPBOX_ACCESS_TOKEN;
+const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const client = MapboxClient({
   accessToken: token

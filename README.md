@@ -58,7 +58,7 @@ Once you have secured access to the Permanent Geocoding API, add your Mapbox acc
 
 The configuration variables available:
 
-- `MAPBOX_ACCESS_TOKEN`: **Required**
+- `REACT_APP_MAPBOX_ACCESS_TOKEN`: **Required**
 - `ELASTIC_URL`: _Optional_, defaults to `localhost:9200`. If you have your own Elasticsearch cluster set the url here
 
 ## Development

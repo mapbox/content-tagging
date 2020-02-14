@@ -3,6 +3,7 @@ import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 import localSearch from '../api/localSearch';
 import Uploader from './Uploader';
+import Map from './Map';
 
 class App extends React.Component {
   state = { images: [] };
@@ -18,15 +19,39 @@ class App extends React.Component {
     console.log('child submitted', term);
     //make an api call
   };
+  onHighlight = item => {
+    console.log('Highlight', item);
+    this.setState({
+      activeItem: item
+    });
+  };
   render() {
     return (
-      <div
-        className="ui container"
-        style={{ marginTop: '10px', marginBottom: '40px' }}
-      >
-        <SearchBar onSubmit={this.onSearchSubmit} />
-        <ImageList images={this.state.images} />
-        <Uploader />
+      <div>
+        <div className="mapWrapper">
+          <Map
+            images={this.state.images}
+            onHighlight={this.onHighlight}
+            active={this.state.activeItem}
+          />
+          <SearchBar onSubmit={this.onSearchSubmit} />
+        </div>
+        <div
+          className="ui container"
+          style={{
+            marginBottom: '40px',
+            overflowY: 'auto',
+            position: 'relative',
+            top: '230px'
+          }}
+        >
+          <ImageList
+            images={this.state.images}
+            onHighlight={this.onHighlight}
+            active={this.state.activeItem}
+          />
+          <Uploader />
+        </div>
       </div>
     );
   }

@@ -10,7 +10,14 @@ const ImageList = props => {
   if (Array.isArray(props.images)) {
     const images = props.images.map(image => {
       console.log(image);
-      return <ImageCard image={image} key={image.filename} />;
+      return (
+        <ImageCard
+          image={image}
+          key={image.filename}
+          onHighlight={props.onHighlight}
+          active={props.active === image.filename ? true : false}
+        />
+      );
     });
     return (
       <div className="image-list">

@@ -14,14 +14,18 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="ui segment two column stackable grid">
-        <div className="ui ten wide column">
+      <div
+        className="ui segment"
+        style={{ width: '240px', margin: '1rem', padding: '0.5rem' }}
+      >
+        <div className="ui">
           <form className="ui form" onSubmit={this.onFormSubmit}>
             <div className="field">
-              <label htmlFor="imageSearch">Image Search: </label>
+              {/* <label htmlFor="imageSearch">Image Search: </label> */}
               <input
                 type="text"
                 id="imageSearch"
+                placeholder="Search"
                 onChange={e => {
                   this.setState({ term: e.target.value });
                 }}

@@ -18,7 +18,9 @@ const search = async (req, res) => {
     const hits = result.body.hits.hits;
 
     const response = hits.map(hit => {
-      return hit._source;
+      const source = hit._source;
+      const obj = { id: hit._id, ...source };
+      return obj;
     });
 
     res.json(response);

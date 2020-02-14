@@ -2,6 +2,8 @@
   "dependencies": {
     "@elastic/elasticsearch": "^7.3.0",
     "@mapbox/mapbox-sdk": "^0.7.0",
+    "@turf/bbox": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
     "axios": "^0.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
@@ -14,11 +16,15 @@
     "uuid": "^3.3.3"
   },
   "scripts": {
-    "start": "cd ui && npm start",
+    "start": "npm run copy-env && npm run start-samples",
+    "install-all": "npm ci && cd ui && npm ci",
+    "copy-env": "if test -f '.env'; then (cp .env ui/); else echo 'no .env file found; assuming you have set REACT_APP_MAPBOX_TOKEN'; fi",
+    "start-samples": "concurrently \"npm run docker\" \"nodemon server/app.js \" \"cd ui && npm start\"",
     "docker": "docker run -p 9200:9200 -p 9300:9300 -e \"discovery.type=single-node\" docker.elastic.co/elasticsearch/elasticsearch:7.3.2"
   },
   "devDependencies": {
     "jest": "^24.8.0",
+    "concurrently": "^5.0.0",
     "nodemon": "^1.19.2"
   }
 }
