@@ -1,5 +1,4 @@
 import React from 'react';
-import { file } from '@babel/types';
 
 /**
  * This component renders an image with its metadata with a cascading tiled layout

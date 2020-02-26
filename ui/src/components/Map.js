@@ -6,6 +6,17 @@ import './Map.css';
 import bbox from '@turf/bbox';
 import { featureCollection, feature } from '@turf/helpers';
 
+const transformRequest = (url, resourceType) => {
+  const isMapboxRequest =
+    url.slice(8, 22) === "api.mapbox.com" ||
+    url.slice(10, 26) === "tiles.mapbox.com";
+  return {
+    url: isMapboxRequest
+      ? url.replace("?", "?pluginName=content-tagging&")
+      : url
+  };
+};
+
 class Map extends React.Component {
   state = { images: [], geoJSON: {} };
   componentDidMount() {
@@ -13,7 +24,8 @@ class Map extends React.Component {
     this.theMap = new mapboxgl.Map({
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/light-v9',
-      hash: true
+      hash: true,
+      transformRequest: transformRequest
     });
 
     this.theMap.on('load', () => {
