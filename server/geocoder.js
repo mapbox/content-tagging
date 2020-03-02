@@ -9,6 +9,7 @@ const client = MapboxClient({
   accessToken: token
 });
 
+// Validate token
 const tokenService = mbxTokens(client);
 const scopesReq = tokenService.getToken();
 scopesReq.query = { pluginName: 'content-tagging' };
@@ -36,7 +37,8 @@ const geocode = async data => {
     console.log(feature);
     return feature;
   } else {
-    throw 'Geocoding error';
+    console.error('Geocoding error, please email solutions@mapbox.com gain access to Permanent Geocodes!');
+    throw 'Geocoding error, please email solutions@mapbox.com gain access to Permanent Geocodes!';
   }
 };
 
